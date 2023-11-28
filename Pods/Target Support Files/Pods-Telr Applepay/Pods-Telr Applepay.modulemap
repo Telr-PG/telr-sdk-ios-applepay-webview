@@ -1,0 +1,6 @@
+framework module Pods_Telr_Applepay {
+  umbrella header "Pods-Telr Applepay-umbrella.h"
+
+  export *
+  module * { export * }
+}

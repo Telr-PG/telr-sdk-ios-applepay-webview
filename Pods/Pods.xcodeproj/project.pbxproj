@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19F8427F49C56D52831227AE48565688 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2C5682DE4A0771207D590724E4CFF1B8 /* TelrSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 695F5AAC5D5DC47F0259B9A313610631 /* TelrSDK-dummy.m */; };
+		366363E6716DC9BBCA24F3D4D1BA14F2 /* TelrController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628F2F9756FF1F3FF746D005BC7759D1 /* TelrController.swift */; };
+		4EF68890362E8C12707A201EF87DE173 /* Pods-Telr Applepay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73401236B4C588B16289B51737870D72 /* Pods-Telr Applepay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54933B0EBE9D6B781B82736B4F16D515 /* XML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530FD4DEE39104108FB9BC80F50527B1 /* XML.swift */; };
+		59A2BDBEDF3EA1E4C4AD42FC7930A852 /* TelrResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5115A4E34B3E1361286F0387E1F3A69 /* TelrResponseModel.swift */; };
+		6A432BE1E4CE37F7E234AEE08ABEE9FF /* PaymentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708D739824714E55932A3C2EBDDF5921 /* PaymentRequest.swift */; };
+		70B91250B0B2F11B16C7114DC0F9B790 /* TabbyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD070B2B406669D2535314A42EE8141D /* TabbyController.swift */; };
+		A057223353AF79B5E2CAB5EE65E40A0E /* Pods-Telr Applepay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FB67132A2905D357F9F1FFE40BC262 /* Pods-Telr Applepay-dummy.m */; };
+		A4D7A4962A1DD097B8F5D361C588A4D6 /* TelrSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE74A074F6D096512469433DAD692394 /* TelrSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1161CB7845E094EE2DC4A02259F17A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C33B14E71670A5E69B014E43628A47DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4683AC0F3463B8B5E48E7D5B02521607;
+			remoteInfo = TelrSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12E2E4C7D3FC5F82448D004A6410645C /* TelrSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TelrSDK-prefix.pch"; sourceTree = "<group>"; };
+		13ADADDD5E16423BE587B3FEB9F4F787 /* Pods-Telr Applepay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Telr Applepay-Info.plist"; sourceTree = "<group>"; };
+		1BCDBD34954A3E666473AF56DC38D4BD /* Pods-Telr Applepay */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Telr Applepay"; path = Pods_Telr_Applepay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9088802297066DD89839FB4A539B72 /* TelrSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TelrSDK; path = TelrSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E425C7280F19D09090042F808AC574D /* Pods-Telr Applepay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Telr Applepay.release.xcconfig"; sourceTree = "<group>"; };
+		4A86C321B6D0132441FDA45B14E0D3A2 /* Pods-Telr Applepay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Telr Applepay-acknowledgements.markdown"; sourceTree = "<group>"; };
+		530FD4DEE39104108FB9BC80F50527B1 /* XML.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XML.swift; path = Source/XML.swift; sourceTree = "<group>"; };
+		5A8F5FB49C869C2C5879F604DC38F96D /* Pods-Telr Applepay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Telr Applepay.debug.xcconfig"; sourceTree = "<group>"; };
+		628F2F9756FF1F3FF746D005BC7759D1 /* TelrController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TelrController.swift; path = Source/TelrController.swift; sourceTree = "<group>"; };
+		695F5AAC5D5DC47F0259B9A313610631 /* TelrSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TelrSDK-dummy.m"; sourceTree = "<group>"; };
+		708D739824714E55932A3C2EBDDF5921 /* PaymentRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentRequest.swift; path = Source/PaymentRequest.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73401236B4C588B16289B51737870D72 /* Pods-Telr Applepay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Telr Applepay-umbrella.h"; sourceTree = "<group>"; };
+		824CFFE7A7367F0B3A4AF234A0491947 /* Pods-Telr Applepay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Telr Applepay.modulemap"; sourceTree = "<group>"; };
+		844B7EE427973BF01541A9466A9CB6C2 /* Pods-Telr Applepay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Telr Applepay-acknowledgements.plist"; sourceTree = "<group>"; };
+		84FB67132A2905D357F9F1FFE40BC262 /* Pods-Telr Applepay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Telr Applepay-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC839A11116CE80467C4BCCDA65C361B /* TelrSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TelrSDK.modulemap; sourceTree = "<group>"; };
+		AD070B2B406669D2535314A42EE8141D /* TabbyController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabbyController.swift; path = Source/TabbyController.swift; sourceTree = "<group>"; };
+		B5115A4E34B3E1361286F0387E1F3A69 /* TelrResponseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TelrResponseModel.swift; path = Source/TelrResponseModel.swift; sourceTree = "<group>"; };
+		BFE5F7EAD1DC1DA6AED9807951A836E7 /* TelrSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TelrSDK-Info.plist"; sourceTree = "<group>"; };
+		CE74A074F6D096512469433DAD692394 /* TelrSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TelrSDK-umbrella.h"; sourceTree = "<group>"; };
+		D7BA47328C3B6D97B5E34D684A1DBF6B /* Pods-Telr Applepay-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Telr Applepay-frameworks.sh"; sourceTree = "<group>"; };
+		DFB3F3EC0C1A7658597DCD5712746D31 /* TelrSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TelrSDK.release.xcconfig; sourceTree = "<group>"; };
+		F0FC367CC8B5D985800DD7B0BCA6EB8E /* TelrSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TelrSDK.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23DEA19FFDC46CE45EFA1A3DFA02D14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F8427F49C56D52831227AE48565688 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE67DDDBD602EB7D28B92571F49EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1161CB7845E094EE2DC4A02259F17A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0650EA1DDEC0C8CFCCC0D0CB99FE572B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BCDBD34954A3E666473AF56DC38D4BD /* Pods-Telr Applepay */,
+				2F9088802297066DD89839FB4A539B72 /* TelrSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D08E9CF6F49EFCA352440DF0D61EEE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A485FC42B04066E1DA25323C48F1A03 /* TelrSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3A485FC42B04066E1DA25323C48F1A03 /* TelrSDK */ = {
+			isa = PBXGroup;
+			children = (
+				708D739824714E55932A3C2EBDDF5921 /* PaymentRequest.swift */,
+				AD070B2B406669D2535314A42EE8141D /* TabbyController.swift */,
+				628F2F9756FF1F3FF746D005BC7759D1 /* TelrController.swift */,
+				B5115A4E34B3E1361286F0387E1F3A69 /* TelrResponseModel.swift */,
+				530FD4DEE39104108FB9BC80F50527B1 /* XML.swift */,
+				60F179642ED39A00D8177E36FBC4609E /* Support Files */,
+			);
+			name = TelrSDK;
+			path = TelrSDK;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60F179642ED39A00D8177E36FBC4609E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC839A11116CE80467C4BCCDA65C361B /* TelrSDK.modulemap */,
+				695F5AAC5D5DC47F0259B9A313610631 /* TelrSDK-dummy.m */,
+				BFE5F7EAD1DC1DA6AED9807951A836E7 /* TelrSDK-Info.plist */,
+				12E2E4C7D3FC5F82448D004A6410645C /* TelrSDK-prefix.pch */,
+				CE74A074F6D096512469433DAD692394 /* TelrSDK-umbrella.h */,
+				F0FC367CC8B5D985800DD7B0BCA6EB8E /* TelrSDK.debug.xcconfig */,
+				DFB3F3EC0C1A7658597DCD5712746D31 /* TelrSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TelrSDK";
+			sourceTree = "<group>";
+		};
+		9B80ADF76F22C163493BA4D49A71C9E5 /* Pods-Telr Applepay */ = {
+			isa = PBXGroup;
+			children = (
+				824CFFE7A7367F0B3A4AF234A0491947 /* Pods-Telr Applepay.modulemap */,
+				4A86C321B6D0132441FDA45B14E0D3A2 /* Pods-Telr Applepay-acknowledgements.markdown */,
+				844B7EE427973BF01541A9466A9CB6C2 /* Pods-Telr Applepay-acknowledgements.plist */,
+				84FB67132A2905D357F9F1FFE40BC262 /* Pods-Telr Applepay-dummy.m */,
+				D7BA47328C3B6D97B5E34D684A1DBF6B /* Pods-Telr Applepay-frameworks.sh */,
+				13ADADDD5E16423BE587B3FEB9F4F787 /* Pods-Telr Applepay-Info.plist */,
+				73401236B4C588B16289B51737870D72 /* Pods-Telr Applepay-umbrella.h */,
+				5A8F5FB49C869C2C5879F604DC38F96D /* Pods-Telr Applepay.debug.xcconfig */,
+				3E425C7280F19D09090042F808AC574D /* Pods-Telr Applepay.release.xcconfig */,
+			);
+			name = "Pods-Telr Applepay";
+			path = "Target Support Files/Pods-Telr Applepay";
+			sourceTree = "<group>";
+		};
+		9DF646E7BEE277E7E67354E78E596A96 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B80ADF76F22C163493BA4D49A71C9E5 /* Pods-Telr Applepay */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2D08E9CF6F49EFCA352440DF0D61EEE3 /* Pods */,
+				0650EA1DDEC0C8CFCCC0D0CB99FE572B /* Products */,
+				9DF646E7BEE277E7E67354E78E596A96 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6920D4113EA08E32E7A0933A1AFB1998 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF68890362E8C12707A201EF87DE173 /* Pods-Telr Applepay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23681D4F687F1A7AD11C6DE9877D31F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D7A4962A1DD097B8F5D361C588A4D6 /* TelrSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4683AC0F3463B8B5E48E7D5B02521607 /* TelrSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FD4959D3CC746EAF3F40E5F7AB27F5 /* Build configuration list for PBXNativeTarget "TelrSDK" */;
+			buildPhases = (
+				B23681D4F687F1A7AD11C6DE9877D31F /* Headers */,
+				EF9E07A576B1405A16B3814A5AC9B208 /* Sources */,
+				23DEA19FFDC46CE45EFA1A3DFA02D14E /* Frameworks */,
+				63F8652D1CF650EAA62AA38523DDF6A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelrSDK;
+			productName = TelrSDK;
+			productReference = 2F9088802297066DD89839FB4A539B72 /* TelrSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F04AC3F0D38E89F7183FFA0CB8CAAA6 /* Pods-Telr Applepay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA4FD8C211DF82B58DC7549A520FB7B /* Build configuration list for PBXNativeTarget "Pods-Telr Applepay" */;
+			buildPhases = (
+				6920D4113EA08E32E7A0933A1AFB1998 /* Headers */,
+				8C32FFC936F01D1DA032973031019C48 /* Sources */,
+				BCAE67DDDBD602EB7D28B92571F49EFA /* Frameworks */,
+				3EC27D5C52DF24F762C02E56AD80B1AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53E0A7403C5FFE5E56ED51F8F8CCD8FC /* PBXTargetDependency */,
+			);
+			name = "Pods-Telr Applepay";
+			productName = Pods_Telr_Applepay;
+			productReference = 1BCDBD34954A3E666473AF56DC38D4BD /* Pods-Telr Applepay */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0650EA1DDEC0C8CFCCC0D0CB99FE572B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F04AC3F0D38E89F7183FFA0CB8CAAA6 /* Pods-Telr Applepay */,
+				4683AC0F3463B8B5E48E7D5B02521607 /* TelrSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EC27D5C52DF24F762C02E56AD80B1AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F8652D1CF650EAA62AA38523DDF6A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C32FFC936F01D1DA032973031019C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A057223353AF79B5E2CAB5EE65E40A0E /* Pods-Telr Applepay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9E07A576B1405A16B3814A5AC9B208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A432BE1E4CE37F7E234AEE08ABEE9FF /* PaymentRequest.swift in Sources */,
+				70B91250B0B2F11B16C7114DC0F9B790 /* TabbyController.swift in Sources */,
+				366363E6716DC9BBCA24F3D4D1BA14F2 /* TelrController.swift in Sources */,
+				59A2BDBEDF3EA1E4C4AD42FC7930A852 /* TelrResponseModel.swift in Sources */,
+				2C5682DE4A0771207D590724E4CFF1B8 /* TelrSDK-dummy.m in Sources */,
+				54933B0EBE9D6B781B82736B4F16D515 /* XML.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53E0A7403C5FFE5E56ED51F8F8CCD8FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TelrSDK;
+			target = 4683AC0F3463B8B5E48E7D5B02521607 /* TelrSDK */;
+			targetProxy = C33B14E71670A5E69B014E43628A47DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5736CDA344F4C05CFEDCF4D306705FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB3F3EC0C1A7658597DCD5712746D31 /* TelrSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TelrSDK/TelrSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TelrSDK/TelrSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TelrSDK/TelrSDK.modulemap";
+				PRODUCT_MODULE_NAME = TelrSDK;
+				PRODUCT_NAME = TelrSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		72EDBD764C5F31ACABA3EF13930CB341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8F5FB49C869C2C5879F604DC38F96D /* Pods-Telr Applepay.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Telr Applepay/Pods-Telr Applepay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Telr Applepay/Pods-Telr Applepay.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EEA27259DDA49A11623F82DCE86BB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0FC367CC8B5D985800DD7B0BCA6EB8E /* TelrSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TelrSDK/TelrSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TelrSDK/TelrSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TelrSDK/TelrSDK.modulemap";
+				PRODUCT_MODULE_NAME = TelrSDK;
+				PRODUCT_NAME = TelrSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2D81132B5117742476E3D881FD2FECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E425C7280F19D09090042F808AC574D /* Pods-Telr Applepay.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Telr Applepay/Pods-Telr Applepay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Telr Applepay/Pods-Telr Applepay.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FD4959D3CC746EAF3F40E5F7AB27F5 /* Build configuration list for PBXNativeTarget "TelrSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EEA27259DDA49A11623F82DCE86BB38 /* Debug */,
+				5736CDA344F4C05CFEDCF4D306705FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA4FD8C211DF82B58DC7549A520FB7B /* Build configuration list for PBXNativeTarget "Pods-Telr Applepay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72EDBD764C5F31ACABA3EF13930CB341 /* Debug */,
+				A2D81132B5117742476E3D881FD2FECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

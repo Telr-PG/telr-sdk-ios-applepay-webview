@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4SY-KH-Edy">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Telr_Applepay" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Telr Applepay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eJ-uq-9Er">
+                                <rect key="frame" x="32" y="135" width="329" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="0cu-Yp-K7P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick a shoe to buy." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eqa-4Q-Njq">
+                                <rect key="frame" x="32" y="187" width="329" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="5QU-H8-tBd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T21-YR-eI2">
+                                <rect key="frame" x="0.0" y="227" width="393" height="216"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzY-vc-CGq">
+                                <rect key="frame" x="101" y="510" width="184" height="45"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="aBd-jY-AAR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Telr Hosted"/>
+                                <connections>
+                                    <action selector="TelrHostedPage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7KS-hH-v70"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6eJ-uq-9Er" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="17l-pf-9cq"/>
+                            <constraint firstItem="T21-YR-eI2" firstAttribute="top" secondItem="Eqa-4Q-Njq" secondAttribute="bottom" constant="16" id="2k6-Nw-3sS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T21-YR-eI2" secondAttribute="trailing" id="BM1-vj-POf"/>
+                            <constraint firstItem="Eqa-4Q-Njq" firstAttribute="top" secondItem="6eJ-uq-9Er" secondAttribute="bottom" constant="16" id="HTf-J2-jxh"/>
+                            <constraint firstItem="hzY-vc-CGq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.25" id="L3d-3B-6vk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hzY-vc-CGq" secondAttribute="trailing" constant="108" id="MJy-hN-InQ"/>
+                            <constraint firstItem="Eqa-4Q-Njq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="gpM-QN-z9d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Eqa-4Q-Njq" secondAttribute="trailing" constant="32" id="iY4-AQ-s0z"/>
+                            <constraint firstItem="T21-YR-eI2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jPX-WR-Xno"/>
+                            <constraint firstItem="6eJ-uq-9Er" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="qYA-Pf-i8R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6eJ-uq-9Er" secondAttribute="trailing" constant="32" id="wsr-Oy-UVM"/>
+                            <constraint firstItem="hzY-vc-CGq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="101" id="ydM-oE-bJF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="y5T-uv-Jru"/>
+                    <connections>
+                        <outlet property="shoePickerView" destination="T21-YR-eI2" id="JLL-x0-TGE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2240.4580152671756" y="143.66197183098592"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="q8T-c9-2OV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4SY-KH-Edy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="NVr-xI-ccg"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1Oh-On-jTm">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="qlY-O6-F9h"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mya-eA-JGt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1313.7404580152672" y="143.66197183098592"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
